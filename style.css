@@ -1,0 +1,21 @@
+.intro {
+    display: grid;
+    text-align: right;
+}
+
+.section1 {
+    background-color: white;
+    clear: both;
+}
+
+.section2 {
+    background-color: lightgoldenrodyellow;
+}
+
+.section3 {
+    background-color: white;
+}
+
+.section4 {
+    background-color: lightgoldenrodyellow;
+}
