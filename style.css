@@ -1,21 +1,37 @@
-.intro {
-    display: grid;
-    text-align: right;
+header {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    background-color: rgb(4, 4, 4);
 }
 
-.section1 {
-    background-color: white;
-    clear: both;
+.grid-container {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgrey;
+}
+
+.intro {
+    font: bold;
 }
 
 .section2 {
-    background-color: lightgoldenrodyellow;
-}
-
-.section3 {
+    display: clear;
     background-color: white;
 }
 
+.section3 {
+    background-color: lightgrey;
+}
+
 .section4 {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgrey;
+}
+
+ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
 }
